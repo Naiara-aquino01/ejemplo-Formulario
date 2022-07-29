@@ -1,0 +1,48 @@
+<html>
+ <head>
+ <title>Formularioact6</title>
+ </head>
+ <body>
+ <h1>Formulario</h1>
+ <form action="" method="post">
+    <label for="nombre">Ingrese su nombre:</label>
+    <input type="text" name="nombre" size="30">
+    <br>
+    <label for="mail">Ingrese su mail:</label>
+    <input type="text" name="mail" size="30">
+    <br>
+    <label for="dni">Ingrese su dni:</label>
+    <input type="text" name="dni" size="15">
+    <br>
+    <label for="curriculum">Ingrese su curriculum:</label>
+    <br>
+    <textarea id="comentarios" name="comentarios" rows="5" cols="60"></textarea> 
+    <br>
+    <input type="submit" value="enviar">
+   </form>
+   <br>
+  <label for="idioma">Seleccione su  idioma :</label> 
+  <br>
+  <input type="checkbox" name="Ingles">Ingles<br>
+  <input type="checkbox" name="Portugues">Portugues<br>
+  <input type="checkbox" name="Otros">Otros<br>
+  <br>
+  <label for="disponibilidad">Seleccione su disponibilidad :</label> 
+  <br>
+  <input type="radio" name="disponibilidad" value="1">Por la mañana<br>
+  <input type="radio" name="disponibilidad" value="2">Por la tarde<br>
+  <input type="radio" name="disponibilidad" value="3">Todo el dia<br>
+  <br>
+  <label for="experiencia">Seleccione su Nivel de experiencia</label> 
+  <select name="Nivel de experiencia">
+  <option value="1">Basico</option>
+  <option value="2">Intermedio</option>
+  <option value="3">Avanzado</option>
+  </select>
+  <br>
+  <br>
+  <form action="/" method="post" enctype="multipart/form-data">
+    <input type="file" name="foto">
+
+</body>
+</html>
